@@ -1,0 +1,28 @@
+html,
+body {
+    margin : 0;
+    padding: 0;
+}
+
+.container {
+    display : flex;
+    flex-grow: 1;
+}
+
+.row {
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    background-color: lightblue;
+    padding: 0;
+    border:0;
+}
+
+.column {
+    flex-grow: 1;
+    padding:0;
+    border: 0;
+    background-color: 255,230,100;
+    transition: 40ms;
+}
+
